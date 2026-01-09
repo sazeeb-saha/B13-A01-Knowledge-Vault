@@ -118,6 +118,7 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin: 0 auto;
 }
 .btn-transplant {
   background-color: rgba(0, 0, 0, 0);
@@ -221,4 +222,29 @@ nav {
   line-height: 20px;
   color: #001931;
   margin: 0px;
+  font-weight: 500;
+}
+.challenge-section {
+  padding: 120px;
+}
+.challenge-container {
+  width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f7f6f2;
+  padding-bottom: 80px;
+}
+.challenge-container h1 {
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #001931;
+  padding-top: 80px;
+}
+.challenge-container p {
+  color: #627382;
+  font-size: 16px;
+  padding-top: 16px;
+  line-height: 24px;
+  padding-bottom: 24px;
 }
