@@ -45,6 +45,11 @@ nav {
   border-radius: 4px;
   padding: 12px 16px;
   color: #ffffff;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #2c3a47;
+  color: #ffffff;
 }
 .banner {
   background-image: url("../assets/hero-bg.png");
@@ -118,7 +123,6 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin: 0 auto;
 }
 .btn-transplant {
   background-color: rgba(0, 0, 0, 0);
@@ -128,6 +132,11 @@ nav {
   border-radius: 4px;
   padding: 12px 16px;
   color: #ffffff;
+  cursor: pointer;
+}
+.btn-transplant:hover {
+  background-color: #bdc3c7;
+  color: #000000;
 }
 /*main section style */
 .problem-section {
@@ -211,13 +220,14 @@ nav {
   color: #627382;
   margin-bottom: 40px;
 }
-.checkbox {
+.checkbox-list li {
+  list-style: none;
   display: flex;
   align-items: center;
   gap: 6px;
   margin-bottom: 16px;
 }
-.checkbox p {
+.checkbox-list li p {
   font-size: 18px;
   line-height: 20px;
   color: #001931;
@@ -247,4 +257,46 @@ nav {
   padding-top: 16px;
   line-height: 24px;
   padding-bottom: 24px;
+}
+.access-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+}
+.footer-nav {
+  justify-content: space-between;
+  max-width: 1600px;
+  margin: 0 auto;
+  align-items: center;
+}
+footer {
+  background-color: #001931;
+  padding: 120px 120px 30px 120px;
+}
+.footer-nav {
+  margin-bottom: 80px;
+}
+.footer-logo p {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.social-logo a {
+  color: #ffffff;
+  padding-right: 16px;
+}
+.copyright {
+  max-width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.557);
+}
+.copyright p {
+  margin-top: 30px;
+  color: #fafafa;
+  font-size: 16px;
+  line-height: 24px;
 }
